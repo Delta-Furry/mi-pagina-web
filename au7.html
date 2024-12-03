@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 7: Manejo de Errores y Excepciones en Bases de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="logo left">
+                <img src="logo_izquierda.png" alt="Logo Izquierdo">
+            </div>
+            <div class="title-container">
+                <h1>Tema 7: Manejo de Errores y Excepciones en Bases de Datos</h1>
+            </div>
+            <div class="logo right">
+                <img src="logo_derecha.png" alt="Logo Derecho">
+            </div>
+        </header>
+
+        <section class="content">
+            <h2>Introducción</h2>
+            <p>
+                El manejo adecuado de errores y excepciones en las conexiones y operaciones con bases de datos es fundamental para garantizar la estabilidad y la seguridad de las aplicaciones. Este tema cubrirá las mejores prácticas para manejar errores de manera eficiente.
+            </p>
+
+            <h2>Temas Clave</h2>
+            <ul>
+                <li><strong>Tipos de Errores:</strong> Cómo clasificar los errores más comunes en las bases de datos, como errores de conexión y de consulta.</li>
+                <li><strong>Excepciones en SQL:</strong> El uso de bloques TRY-CATCH en SQL para manejar excepciones durante las operaciones.</li>
+                <li><strong>Errores de Conexión:</strong> Soluciones y técnicas para manejar problemas de conexión a bases de datos de forma robusta.</li>
+                <li><strong>Registro de Errores:</strong> La importancia de registrar los errores para análisis y auditoría.</li>
+            </ul>
+
+            <h3>Video Explicativo</h3>
+            <div class="video-container">
+                <!-- Inserta el código de YouTube aquí -->
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/xu8_7rnPXHo?si=nA6h70PTbc-bdp5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+  <br>  <br>
+  <p>
+El manejo de errores y excepciones en bases de datos es una técnica de programación que permite controlar los errores que ocurren durante la ejecución de un programa: 
+Control de excepciones: Se escriben controladores de excepciones para controlarlas. 
+Detección de excepciones: Se prueba la aplicación con escenarios de excepción para detectar las excepciones probables. 
+Recuperación de errores: Se utilizan bloques try/catch/finally para recuperarse de errores o liberar recursos. 
+Para controlar excepciones en bases de datos, se pueden seguir estos pasos:
+Corchetear la llamada a Open con un bloque try.
+El bloque catch subsiguiente detectará un objeto CDBException.
+Examinar un miembro de datos del objeto de excepción para obtener información de error. 
+Las excepciones pueden ser generales o específicas, y las generales contienen un conjunto de excepciones específicas. 
+ </p>
+            <div class="rotating-image">
+                <img src="tema7_errores.png" alt="Manejo de Errores">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Administración de Servidores | Tema 7: Manejo de Errores y Excepciones</p>
+        <a href="index.html" class="btn-return">Regresar al Índice</a>
+    </footer>
+</body>
+</html>
